@@ -1,0 +1,142 @@
+:root{
+    /*Colores determinado por el challenge--Metodologia BEM aplicada*/
+
+   --cor-de-cajas: #fbfbfb;
+   --cor-de-titulo: #464646;
+   --cor-de-fondo-azulado: #EAF2FD;
+   --cor-de-fondo-general: #F5F5F5;
+   --cor-de-botonera-azulada: #2A7AE4;
+   --cor-de-botonera-azulada-active: #0F80F8;
+   --cor-de-botonera-yellow-active:#DBAD11;
+   --cor-de-texto: black;
+
+}
+section.header{
+    background-color: var(--cor-de-fondo-general);
+    margin: 0 auto;
+    padding: 0 4vw 0 4vw;
+}
+section.header header.status__header{
+    width: 100vw;
+    max-width: 940px;
+    min-width: 600px;
+    height: 10vh;
+    min-height: 50px;
+    max-height: 100px; 
+    margin: auto;
+}
+section.header header.status__header ul.rollback{
+    text-decoration: none;
+    list-style: none;
+    width: fit-content;
+    min-width: fit-content;
+    max-width: fit-content;
+    padding-top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.header header.status__header ul.rollback li.rollback__portfolio{
+    text-decoration: none;
+    margin: auto;
+}
+section.header header.status__header ul.rollback li.rollback__portfolio:hover{
+    text-decoration: underline;
+    color: var(--cor-de-cajas);
+    font-weight: bold;
+    border-width: 0.3rem;
+    border-color: var(--cor-de-titulo);
+}
+section.header header.status__header ul.rollback li.rollback__portfolio a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--cor-de-titulo);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: auto;
+    margin: auto;
+}
+section.school__section{
+    background-color: var(--cor-de-fondo-azulado);
+    margin: 0 auto;
+    padding: 0 4vw 0 4vw;
+    display: flex;
+    justify-content: space-around;
+}
+section.school_section div.status__container{
+    width: 100vw;
+    max-width: 940px;
+    min-width: 600px;
+    margin: auto;
+    
+}
+section.school__section div.status__container h2.status__title{
+    color: var(--cor-de-titulo);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+section.school__section div.status__container p.status__active{
+    color: var(--cor-de-titulo);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: lighter;
+    margin: auto;
+}
+section.school__section div.status__container div.task{
+    display: flex;
+    margin: auto;
+    width: fit-content;
+    min-width: fit-content;
+    max-width: 940px;
+}
+section.school__section div.status__container div.task ul.program li{
+    list-style: "►";
+    text-align: left;
+    font-weight: 100;
+    color: var(--cor-de-titulo);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    margin: auto;
+}
+    @media (max-width: 700px) {
+        .header{
+            width: 100vw;
+            min-width: 300px;
+            max-width: 700px;
+        }
+        .school__section{
+            width: 100vw;
+            min-width: 300px;
+            max-width: 700px;
+            display: flex;
+            flex-direction: column;
+        }
+        .status__container{
+            width: 100vw;
+            min-width: 300px;
+            max-width: 700px;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+        }
+        .task{
+            width: 100vw;
+            min-width: 300px;
+            max-width: 700px;
+            display: flex;
+            flex-direction: wrap;
+            margin: auto;
+        }
+        .footer{
+            width: 100vw;
+            min-width: 300px;
+            max-width: 700px;
+        }
+        
+    }
+    
+    

@@ -1,0 +1,1 @@
+alert("Hola. He desabilitado ciertas funciones en pos de proteger datos personales. La descarga de curriculum en pdf esta deshabilitada y el envio del formulario de contacto aun esta en desarrollo. Mil disculpas!");
